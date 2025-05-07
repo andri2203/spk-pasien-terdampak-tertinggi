@@ -3,9 +3,9 @@
 @section('title', $title)
 
 @section('body')
-<main class="relative flex w-4/5 min-h-screen ml-[20%] bg-gray-100">
+<main class="flex w-4/5 min-h-screen ml-[20%] bg-gray-100">
     @include('sidebar')
-    <section class="relative flex flex-col items-start justify-start w-full min-h-full px-3 py-4">
+    <section class="flex flex-col items-start justify-start w-full min-h-full px-3 py-4">
         <h1 class="text-2xl font-bold uppercase mb-4">{{ $title }}</h1>
         @session('success')
         <div class="flex items-center p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
