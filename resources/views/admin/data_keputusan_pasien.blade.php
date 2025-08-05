@@ -31,7 +31,7 @@
                 @foreach($penyakit->kriteria_penyakit as $kriteria)
                 @if(count($ev['evaluations'])!=0)
                 <td class="px-6 py-4">
-                    {{ $ev['evaluations']['kriteria-' . $kriteria['id']] ?? "0" }}
+                    {{ $ev['evaluations']['kriteria-' . $kriteria['id']] ?? "-" }}
                 </td>
                 @else
                 <td class="px-6 py-4">

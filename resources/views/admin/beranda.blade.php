@@ -128,7 +128,7 @@
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                                                 @foreach($kriteria as $kr)
                                                 <th scope="row" class="text-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    {{$data['nilai_keputusan'][$kr['id']] ?? "0"}}
+                                                    {{$data['nilai_keputusan'][$kr['id']] ?? "-"}}
                                                 </th>
                                                 @endforeach
                                             </tr>
